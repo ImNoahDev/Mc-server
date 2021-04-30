@@ -38,5 +38,8 @@ crontab -e
 and add:
 @reboot cd mc & java -Xms1G -Xmx2G -XX:+UseG1GC -jar paper-1.16.5-631.jar nogui
 
+# Get ip 
+ip route
+
 # Reboot!
 sudo reboot
