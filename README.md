@@ -5,8 +5,8 @@
 ```mkdir mc```
 ```cd mc```
 
-# Download java and paper spigiot
-```sudo apt-get install default-jre```
+# Download java, tmux and paper spigiot
+```sudo apt-get install default-jre tmux```
 ```wget https://github.com/dev-bash/Mc-server/raw/main/paper-1.16.5-631.jar```
 
 # Run spigiot
@@ -40,8 +40,8 @@ change to true in:
 
 # start at boot
 ```crontab -e```
-and add
-```@reboot cd mc & java -Xms1G -Xmx2G -XX:+UseG1GC -jar paper-1.16.5-631.jar nogui```
+select 1/nano and add
+```@reboot tmux new-session -d -s mc 'cd mc && java -Xms1G -Xmx2G -XX:+UseG1GC -jar paper-1.16.5-631.jar nogui'```
 
 # Get ip 
 ```ip route```
