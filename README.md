@@ -1,5 +1,5 @@
 # Update system
-sudo apt-get update
+'''sudo apt-get update'''
 
 # Create folder and change directory
 mkdir mc
