@@ -1,9 +1,9 @@
 # Update system
-sudo apt-get update;
+```sudo apt-get update;```
 
 # Create folder and change directory
-mkdir mc;
-cd mc;
+```mkdir mc;```
+```cd mc;```
 
 # Download java and paper spigiot
 sudo apt-get install default-jre;
