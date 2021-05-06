@@ -25,9 +25,11 @@ change to true in:
 ```wget https://github.com/dev-bash/Mc-server/raw/main/Geyser/Geyser-Spigot.jar```
 
 # Run spigiot and generate files
+```cd -```
 ```java -Xms1G -Xmx2G -XX:+UseG1GC -jar paper-1.16.5-631.jar nogui```
 
 # Install settings
+```cd plugins```
 ```cd Geyser-Spigiot```
 ```rm config.yml```
 ```wget https://raw.githubusercontent.com/dev-bash/Mc-server/main/Geyser/config.yml?token=AOE64SIULGJNC2AAGLQVJJTARMPDA```
