@@ -30,7 +30,7 @@ change to true in:
 
 # Install settings
 ```cd plugins```
-```cd Geyser-Spigiot```
+```cd Geyser-Spigot```
 ```rm config.yml```
 ```wget https://raw.githubusercontent.com/dev-bash/Mc-server/main/Geyser/config.yml?token=AOE64SIULGJNC2AAGLQVJJTARMPDA```
 ```cd -```
