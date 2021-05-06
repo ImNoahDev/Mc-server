@@ -34,7 +34,7 @@ change to true in:
 ```rm config.yml```
 ```wget https://raw.githubusercontent.com/dev-bash/Mc-server/main/Geyser/config.yml?token=AOE64SIULGJNC2AAGLQVJJTARMPDA```
 ```cd -```
-```cd Floodgate-bukkit```
+```cd floodgate-bukkit```
 ```rm config.yml```
 ```wget https://raw.githubusercontent.com/dev-bash/Mc-server/main/Floodgate/config.yml?token=AOE64SLZGFDQWAZOGK2XNV3ARMPHG```
 
